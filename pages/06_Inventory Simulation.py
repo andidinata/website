@@ -91,7 +91,7 @@ with col_left:
                                            step=1)
         
         critical_default = int(daily_usage_avg * delivery_lead_time)
-        if st.toggle("Run to zero"):
+        if st.checkbox("Run to zero"):
           critical_default = 0
         critical_level = st.number_input("Critical Level", 
                                        min_value=0, 
@@ -116,7 +116,7 @@ with col_left:
                                             step=1)
 
         max_qty_default = int(monthly_usage_avg + rop)
-        if st.toggle("Half Monthly Usage"):
+        if st.checkbox("Half Monthly Usage"):
           max_qty_default = int((0.5*monthly_usage_avg) + rop)
         max_qty = st.number_input("Maximum Quantity", 
                                 min_value=rop, 
