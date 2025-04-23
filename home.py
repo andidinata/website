@@ -16,7 +16,7 @@ st.info("Welcome to Colab Coding WebApp, choose the app on the side bar. Hope yo
     #     st.Page("./pages/06B_Inventory Simulation v2.py",title="Inventory Simulation V2",icon=":material/inventory:"),
     #     st.Page("./pages/07_Batch Inventory Simulation.py",title="Batch Inventory Simulation",icon=":material/inventory_2:"),
     #     st.Page("./pages/Calculator.py",title="Calculator",icon=":material/apps:")
-    ]
+    # ]
     # "Class Project" : [
     #     st.Page("./pages/Fun Converter.py",title = "Fun Converter",icon=":material/scale:"),
     #     st.Page("./pages/Haadi Online Store.py",title = "Haadi Marketplace",icon=":material/local_mall:"),
