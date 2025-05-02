@@ -6,3 +6,4 @@ pdf2image
 xlsxwriter
 scipy
 scikit-learn
+streamlit==1.44
