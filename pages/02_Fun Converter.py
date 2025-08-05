@@ -3,9 +3,6 @@ import streamlit as st
 st.title('Fun Conversion App')
 
 conversion_factors = {
-  'distance':{'mm':1,
-              'cm':0.1,
-              'm' :0.01},
   'calories': {'fries':319/319,
                'donut':319/190,
                'burger':319/290,
